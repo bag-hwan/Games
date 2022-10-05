@@ -47,11 +47,10 @@ public class MainActivity2 extends AppCompatActivity {
             arr_random_num[i] = random.nextInt(12) +1;
         }
 
-        String[] ar2 = {};
         String[] ar = {"당첨","당첨","당첨","당첨","당첨","당첨","꽝","당첨","당첨","당첨","당첨","당첨"};
         int b = ar.length;
         rand (ar, b);
-        ar2 = ar;
+
 
         for(int i = 0; i < Rid_button.length; i++){
             int finalI = i;
